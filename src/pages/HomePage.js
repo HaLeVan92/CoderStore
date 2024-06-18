@@ -6,7 +6,6 @@ import ProductSort from "../components/ProductSort";
 import ProductList from "../components/ProductList";
 import { FormProvider } from "../components/form";
 import { useForm } from "react-hook-form";
-
 import orderBy from "lodash/orderBy";
 import LoadingScreen from "../components/LoadingScreen";
 import apiService from "../app/apiService";
